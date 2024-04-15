@@ -170,5 +170,10 @@ From this, we can conclude that for training purposes: *it is better to use the 
 
 Based on the experiments conducted, the following conclusion can be drawn:
 1.   When using the **ShallowMLP model**, *dataset size is a crucial criterion*. The model performed better with fewer data points (50 images) than with more (225 images).
-2.   Additionally, **increasing the number of clusters** can enhance the model's learning ability, but it requires selecting the appropriate architecture. For instance, when the number of clusters was increased to **32**, we utilized the **`vt_base_patch 32_224` model**, which improved the classification ability. In contrast, the **ShallowMLP** model exhibited inferior results with the same number of clusters.
+2.   Additionally, **increasing the number of clusters** can enhance the model's learning ability, but it requires selecting the appropriate architecture. For instance, when the number of clusters was increased to **32**, we utilized the **`vt_base_patch 32_224`** model, which improved the classification ability. In contrast, the **ShallowMLP** model exhibited inferior results with the same number of clusters.
 4. Finally, **highlighting clusters** in images can **interfere** with the model's learning. Pre-clustered images may inaccurately convey the general characteristics of classes. The model demonstrated better results without cluster allocation.
+
+## Examples
+
+The example folder's repository includes notebooks for the first and fourth experiments to enhance clarity.
+
