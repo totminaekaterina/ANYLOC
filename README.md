@@ -175,5 +175,5 @@ Based on the experiments conducted, the following conclusion can be drawn:
 
 ## Examples
 
-The example folder's repository includes notebooks for the first and fourth experiments to enhance clarity.
+The example folder's repository includes notebooks for the second and fourth experiments to enhance clarity.
 
