@@ -160,9 +160,11 @@ The classified classes are as follows: 'Kitchen' (0), 'Living_room' (1) (Fig.6-7
 
 ### Results
 
-The last 4th experiment demonstrated an improvement in the model's predictive ability. Specifically, the model correctly classified images into their respective classes with an accuracy rate of **80% out of 100%**.
+The last 4th experiment demonstrated an improvement in the model's predictive ability. Specifically, the model correctly classified images into their respective classes with an accuracy rate of **80% out of 100%**. 
 
-From this, we can conclude that for training purposes: it is better to use the initial raw images that have been cropped, without first selecting clusters.
+The 'Living_room' and 'Bedroom' classes displayed the poorest results, likely due to an imbalance in the dataset. The training sample for these classes included images from different layouts, which could have impacted the model's training. It is assumed that a larger and more balanced dataset will result in improved performance for these classes.
+
+From this, we can conclude that for training purposes: *it is better to use the initial raw images that have been cropped, without first selecting clusters*.
 
 ## Conclusion
 
