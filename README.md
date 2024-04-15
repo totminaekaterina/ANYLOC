@@ -84,19 +84,20 @@ At this stage, iterations are performed by training epochs, the model is trained
 After 10 epochs of training, the model showed the following metric estimates (after the **8th epoch** of training, the model began **re-training**):
 
 | Epoch | Metric | Result |
-|:------------|:-----------:|:-----------:|
-| 1 | loss | 8.56 | 
-| 1 | accuracy | 0.35 |
-| 1 | [R@1, R@5, R@10] | [0.025, 0.1, 0.125] |
-| 5 | loss | 1.89 | 
-| 5 | accuracy | 0.95 |
-| 5 | [R@1, R@5, R@10] | [0.025, 0.075, 0.15] |
-| 8 | loss | 0.0001| 
-| 8 | accuracy | 1.0 |
-| 8 | [R@1, R@5, R@10] | [0.025, 0.075, 0.175] |
-| 10 | loss | 2.7 | 
-| 10 | accuracy | 1.0 |
-| 10 | [R@1, R@5, R@10] | [0.025, 0.075, 0.175] |
+|-------|--------|--------|
+| 1     | loss   | 8.56   |
+|       | accuracy | 0.35  |
+|       | [R@1, R@5, R@10] | [0.025, 0.1, 0.125] |
+| 5     | loss   | 1.89   |
+|       | accuracy | 0.95  |
+|       | [R@1, R@5, R@10] | [0.025, 0.075, 0.15] |
+| 8     | loss   | 0.0001 |
+|       | accuracy | 1.0   |
+|       | [R@1, R@5, R@10] | [0.025, 0.075, 0.175] |
+| 10    | loss   | 2.7    |
+|       | accuracy | 1.0   |
+|       | [R@1, R@5, R@10] | [0.025, 0.075, 0.175] |
+
 
 
 #### Classification stage
