@@ -136,7 +136,7 @@ However, these changes did not enhance the model's classification ability, so th
 
 The fourth experiment utilized the `vt_base_patch 32_224` model. However, clusters were not allocated using DINO v2 and VLAD in the training and test datasets. The charts for loss and t-SNE are presented below (Fig.5) along with the classification probability results for different images. The model has demonstrated good classification abilities, despite the lack of grouping in the patterns.
 
-![loss_3](https://github.com/totminaekaterina/Anyloc-room-classification/blob/main/imgs/loss_3.png)
+![loss_5](https://github.com/totminaekaterina/Anyloc-room-classification/blob/main/imgs/loss_5.png)
 
 The classified classes are as follows: 'Kitchen' (0), 'Living_room' (1) (Fig.6-7), 'Bedroom' (2), 'Bathroom' (3), and 'Wardrobe' (4).
 
