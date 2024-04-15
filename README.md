@@ -146,7 +146,7 @@ The classified classes are as follows: 'Kitchen' (0), 'Living_room' (1) (Fig.6-7
 
 | Image № | Image Class | Predicted Image Class | Propapility| Right/False |
 |:------------|:-----------:|:-----------:|:-----------:|:-----------:|
-| 1 | Wardrobe | Wardrobe |  Wardrobe |  0.52 | **Right** |
+| 1 | Wardrobe |  Wardrobe |  0.52 | **Right** |
 | 2 | Bathrooom | Bathrooom | 0.54 | **Right** |
 | 3 | Bedroom |  Bedroom| 0.44 | False |
 | 4 | Kitchen | Kitchen | 0.37 | **Right** |
