@@ -148,14 +148,14 @@ The classified classes are as follows: 'Kitchen' (0), 'Living_room' (1) (Fig.6-7
 |:------------|:-----------:|:-----------:|:-----------:|:-----------:|
 | 1 | Wardrobe |  Wardrobe |  0.52 | **Right** |
 | 2 | Bathrooom | Bathrooom | 0.54 | **Right** |
-| 3 | Bedroom |  Bedroom| 0.44 | False |
+| 3 | Bedroom |  Kitchen| 0.44 | False |
 | 4 | Kitchen | Kitchen | 0.37 | **Right** |
 | 5 | Living_room | Living_room | 0.38 | **Right** |
 | 6 | Wardrobe | Wardrobe | 0.56 | **Right** |
 | 7 | Bedroom | Bedroom | 0.41 | **Right** |
 | 8 | Bathrooom | Bathrooom | 0.57 | **Right** |
 | 9 | Kitchen | Kitchen | 0.42 | **Right** |
-| 10 | Living_room | Living_room | 0.33 | False |
+| 10 | Living_room | Bedroom | 0.33 | False |
 
 
 ### Results
